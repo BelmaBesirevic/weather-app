@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./assets/style.css" />
+    <title>Weather App</title>
+  </head>
+  <body>
+    <div class="page__container">
+      <div class="app-container">
+        <h1>Weather App</h1>
+        <form onsubmit="return false">
+          <input type="text" class="search" placeholder="Search by city name" />
+          <button class="btn btn-primary w-100" type="submit">Submit</button>
+          <p class="error"></p>
+        </form>
+        <section class="weather-info">
+          <div class="container">
+            <div>
+              <img class="icon" src="" alt="" />
+            </div>
+            <div class="location">
+              <div class="city">London, GB</div>
+              <div class="date">Thursday, 2, Nov, 2022</div>
+              <div class="current">
+                <div class="temp">Temp: 25 <span>ºC</span></div>
+              </div>
+              <div class="weather">Weather: Sunny</div>
+              <div class="temp-range">Temp Range: 10ºC / 15ºC</div>
+            </div>
+          </div>
+        </section>
+      </div>
+      <footer class="footer">Copyright Belma Besirevic 2022</footer>
+    </div>
+
+    <!-- scripts -->
+    <script src="./assets/script.js"></script>
+  </body>
+</html>
