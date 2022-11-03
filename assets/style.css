@@ -60,6 +60,7 @@ a {
   height: 100%;
   border-radius: 5px;
   width: 40ch;
+  background-image: rgb(0, 2, 95);
   background: url('assets/bg.jpg') no-repeat center;
   background-size: cover;
   padding: 2rem;
