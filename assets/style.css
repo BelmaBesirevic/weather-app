@@ -32,7 +32,6 @@ a {
 
 .btn-secondary {
   background-color: hsl(340, 42%, 61%);
-  
 }
 
 .w-100 {
@@ -61,7 +60,7 @@ a {
   height: 100%;
   border-radius: 5px;
   width: 40ch;
-  background: url("./assets/bg.jpg") no-repeat center;
+  background: url('assets/bg.jpg') no-repeat center;
   background-size: cover;
   padding: 2rem;
   display: flex;
@@ -115,7 +114,6 @@ button.btn {
 .location .city {
   font-size: 20px;
   font-weight: 600;
-
 }
 
 .location .date {
@@ -144,7 +142,6 @@ button.btn {
   color: #fff;
   text-align: center;
   font-weight: 500;
-  
 }
 
 .error.show {
