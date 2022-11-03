@@ -61,7 +61,7 @@ a {
   height: 100%;
   border-radius: 5px;
   width: 40ch;
-  background: url("/assets/bg.jpg") no-repeat center;
+  background: url("./assets/bg.jpg") no-repeat center;
   background-size: cover;
   padding: 2rem;
   display: flex;
